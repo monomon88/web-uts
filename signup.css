@@ -1,0 +1,65 @@
+/* signup.css */
+
+body {
+    font-family: Arial, sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #000000;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+form p {
+    text-align: center;
+    margin-top: 15px;
+    color: #666666;
+}
